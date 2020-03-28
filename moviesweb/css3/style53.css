@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color :rgb(242, 242, 247)!important;
+
+}
+.header{
+    background-color: black;
+}
+.header img{
+    width: 130px;
+    height: auto
+}
+.header a{
+    margin: 0 8px;
+    font-size: 20px ;
+    border-radius: 40%;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.header a:hover{
+    color: white;
+    text-decoration: none;
+}
+.carousel-item img {
+    width: 100%;
+    height: 400px;
+}
+.za{
+    padding: 1% 3%;
+}
+.aff{
+    margin-right: 15px;
+    z-index: 5;
+}
+.sf{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 800px;
+}
+.st{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 830px;
+}
+.footer{
+    height: 50px;
+    text-align: center;
+    
+}
+.centerdiv{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#re{
+    height: 60px;
+    width: 60px;
+    background-color:#f3f5fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 70px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+#re i{
+    transition: all 0.3s linear;
+}
+#re:hover i{
+    transform: scale(1.4);
+}
+#re:hover fa-facebook-f{
+    color: blue;
+}
+.fa-instagram{
+    color: #e84393;
+}
+.fa-youtube{
+    color: #e84118;
+}
+.fa-twitter{
+    color:#0097e6 ;
+}
+
